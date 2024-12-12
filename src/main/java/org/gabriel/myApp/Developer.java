@@ -13,6 +13,8 @@ public class Developer {
 
     // Como o Spring sabe a classe correta para fazer a injeção?? Pelo TIPO, não pelo nome
 
+    /* Mas, se tivermos várias classes do mesmo tipo, como o Spring sabe a correta p/ fazer DI? Isso não trará confusão?
+    * Veja a classe Desktop para ter esta resposta*/
 
 
 //    @Autowired                            constructor injection
