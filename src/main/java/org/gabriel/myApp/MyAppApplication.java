@@ -15,8 +15,8 @@ public class MyAppApplication {
 		também chamados 'Beans', controlando o seu ciclo de vida e também a suas dependências */
 
 
-		Developer developer = new Developer();
-		developer.build();
+//		Developer developer = new Developer();
+//		developer.build();
 		/* Aqui crio um objeto normalmente, mas "dentro" da JVM e não do container IoC, então será
 		minha responsabilidade gerenciá-lo*/
 

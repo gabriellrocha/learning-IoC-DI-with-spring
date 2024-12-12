@@ -9,7 +9,10 @@ import org.springframework.stereotype.Component;
 public class Developer {
 
     @Autowired                           // injeção de dependência - field injection
-    private Laptop laptop;              // se não informar ao Spring, essa dependência será null
+    private Computer computer;           // se não informar ao Spring, essa dependência será null
+
+    // Como o Spring sabe a classe correta para fazer a injeção?? Pelo TIPO, não pelo nome
+
 
 
 //    @Autowired                            constructor injection
@@ -20,7 +23,7 @@ public class Developer {
 
     public void build() {
 
-        laptop.compile();
+        computer.compile();
         System.out.println("Working on Awesome Project");
     }
 
